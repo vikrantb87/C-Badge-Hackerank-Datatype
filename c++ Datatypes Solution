@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int x ;
+    long y;
+    char g;
+    float z;
+    double f;
+    cin>>x;
+    cin>>y;
+    cin>>g;
+    cin>>z;
+    cin>>f;
+    
+    cout<< x << endl;
+    cout<< y << endl;
+    cout<< g << endl;
+    cout.precision(20);
+    cout<< z << endl;
+    cout.precision(20);
+    cout<< f << endl; 
+// Complete the code.
+    return 0;
+}
